@@ -34,7 +34,7 @@
    async function deletePost(postId){
         
 
-    let response = await fetch("http://localhost:3001/api/blog/" + postId, {
+    let response = await fetch("https://techblogsss.herokuapp.com/api/blog/" + postId, {
         method:"DELETE",
         headers:{
             "Content-Type":"application/json"
